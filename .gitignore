@@ -1,0 +1,21 @@
+# Dataset (avoid committing large/raw data files)
+data/raw/*.csv
+data/processed/*.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+env/
+.env
+
+# Jupyter
+.virtual_documents/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
